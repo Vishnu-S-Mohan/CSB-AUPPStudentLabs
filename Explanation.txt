@@ -1,0 +1,19 @@
+Classes: 
+Both code snippets use classes (Song, MusicLibrary, and Playlist). 
+This is a good choice for representing entities in an object-oriented manner.
+
+Data Structures:
+main.py: Uses a combination of classes and lists (for the song_list attribute in the Playlist class).
+MusicLibrary: Uses a combination of classes and dictionaries (for the song_list attribute in the MusicLibrary class).
+
+Song Representation:
+Both the codes have a "Song" class to represent each of the songs with the display of the title of the song, artist, album, 
+genre, and the length.
+
+Music Library Representation:
+main.py: Uses a dictionary (song_list) in the MusicLibrary class to store songs with a key based on title and artist.
+MusicLibrary.py: Also uses a dictionary (song_list) in the MusicLibrary class, but the key is based on title and artist.
+
+Playlist Representation:
+main.py: Uses a list (song_list) in the Playlist class to store songs.
+MusicLibrary.py: Also uses a list (song_list) in the Playlist class to store songs.
